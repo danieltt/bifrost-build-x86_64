@@ -1,0 +1,9 @@
+NOTES in netmap pacth
+
+in order to compile in bifrost
+some example apps are not compiled
+pkt-gen:
+	you need to specify source mac address with -S
+	there were problems with iffaddrs.h
+
+	max num of cpus changed to 12. Don't excced you're limit
